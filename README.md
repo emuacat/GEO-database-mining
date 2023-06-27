@@ -1,21 +1,41 @@
-GEO Database Mining - Comprehensive Bioinformatics Expression Matrix Analysis Repository Overview
-Main Project Code Folders:
-GSE42872_main: Demonstrates the standard six steps for mining the GEO database.
-GSE11121_survival: Demonstrates batch survival analysis based on gene expression grouping.
-Six Task Project Folders:
-task1-check-specific-genes: Demonstrates the performance of specific genes of interest across multiple GSE datasets.
-task2-lncRNA-mRNA-network: Demonstrates how to construct a network.
-task3-multiple-groups: Demonstrates downstream analysis when sample grouping information is complex.
-task4-NPC: Demonstrates the standard six steps for mining the GEO database, similar to GSE42872_main.
-task5-dynamic-network-biomarker: Demonstrates a novel algorithm beyond the standard six steps for GEO database mining shown in GSE42872_main.
-task6-GEO-TCGA: Demonstrates how to integrate the TCGA database.
-Two Additional Supplementary Project Folders:
-airway_RNAseq: Demonstrates the analysis of expression matrices obtained from RNA-seq, highlighting similarities and differences compared to traditional microarray expression matrices.
-breast_cancer_meta-analysis: Demonstrates how to perform meta-analysis.
-Below is a code snippet from the main code folder, GSE42872_main:
+# GEO Database Mining - Comprehensive Bioinformatics Expression Matrix Analysis Repository Overview
 
-R
-Copy code
+## Main Project Code Folders:
+
+- GSE42872_main: Demonstrates the standard six steps for mining the GEO database.
+- GSE11121_survival: Demonstrates batch survival analysis based on gene expression grouping.
+
+## Six Task Project Folders:
+
+### task1-check-specific-genes:
+Demonstrates the performance of specific genes of interest across multiple GSE datasets.
+
+### task2-lncRNA-mRNA-network:
+Demonstrates how to construct a network.
+
+### task3-multiple-groups:
+Demonstrates downstream analysis when sample grouping information is complex.
+
+### task4-NPC:
+Demonstrates the standard six steps for mining the GEO database, similar to GSE42872_main.
+
+### task5-dynamic-network-biomarker:
+Demonstrates a novel algorithm beyond the standard six steps for GEO database mining shown in GSE42872_main.
+
+### task6-GEO-TCGA:
+Demonstrates how to integrate the TCGA database.
+
+## Two Additional Supplementary Project Folders:
+
+### airway_RNAseq:
+Demonstrates the analysis of expression matrices obtained from RNA-seq, highlighting similarities and differences compared to traditional microarray expression matrices.
+
+### breast_cancer_meta-analysis:
+Demonstrates how to perform meta-analysis.
+
+## Below is a code snippet from the main code folder, GSE42872_main:
+
+```R
 # Step 1: Download Data
 # Data is the soul!
 
