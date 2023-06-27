@@ -59,5 +59,5 @@ save(raw_exprSet, group_list,
 # Step 2: Check the Expression Matrix
 # High-quality data is crucial!
 
-# Try to understand my codes, how I filtered the probes based on microarray annotation, and how I checked the group information for different samples in each experiment.
+# I filtered the probes based on microarray annotation, and how I checked the group information for different samples in each experiment.
 # This includes PCA and Cluster figures.
